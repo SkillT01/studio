@@ -49,7 +49,7 @@ export default function ServicesPage({ searchParams }: { searchParams: { q?: str
                 <SelectValue placeholder="All Categories" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="">All Categories</SelectItem>
+                <SelectItem value="all">All Categories</SelectItem>
                 {categories.map(cat => (
                   <SelectItem key={cat.id} value={cat.slug}>{cat.name}</SelectItem>
                 ))}
