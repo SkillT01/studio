@@ -1,3 +1,46 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "A vibrant landscape of Sri Lanka.",
+      "imageUrl": "https://images.unsplash.com/photo-1621820400783-62c557fdd8e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzcmklMjBsYW5rYSUyMGxhbmRzY2FwZXxlbnwwfHx8fDE3NjU2MTQ5NzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sri lanka landscape"
+    },
+    {
+      "id": "carpenter-category",
+      "description": "A carpenter working with wood.",
+      "imageUrl": "https://images.unsplash.com/photo-1683115100702-af818681184d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2FycGVudGVyJTIwd29vZHxlbnwwfHx8fDE3NjU1MzYxMDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "carpenter wood"
+    },
+    {
+      "id": "mason-category",
+      "description": "A mason building a brick wall.",
+      "imageUrl": "https://images.unsplash.com/photo-1608793428452-9a002b7afec5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtYXNvbiUyMGJyaWNrfGVufDB8fHx8MTc2NTYxNDk3MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mason brick"
+    },
+    {
+      "id": "salon-category",
+      "description": "A modern and stylish salon interior.",
+      "imageUrl": "https://images.unsplash.com/photo-1633681138600-295fcd688876?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzYWxvbiUyMGludGVyaW9yfGVufDB8fHx8MTc2NTUxNzk0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "salon interior"
+    },
+    {
+      "id": "avatar1",
+      "description": "Profile picture of a service provider.",
+      "imageUrl": "https://images.unsplash.com/photo-1608352247409-dd9edd0e9ce2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwb3J0cmFpdCUyMHBlcnNvbnxlbnwwfHx8fDE3NjU1Mjc1NTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "portrait person"
+    },
+    {
+      "id": "avatar2",
+      "description": "Profile picture of another service provider.",
+      "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwb3J0cmFpdCUyMHdvbWFufGVufDB8fHx8MTc2NTUyODE1MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "portrait woman"
+    },
+    {
+      "id": "avatar3",
+      "description": "Profile picture of a third service provider.",
+      "imageUrl": "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwb3J0cmFpdCUyMG1hbnxlbnwwfHx8fDE3NjU1ODk2OTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "portrait man"
+    }
+  ]
 }
