@@ -29,7 +29,9 @@ export function Header() {
 
         <div className="flex flex-1 items-center justify-end gap-2">
           <Button variant="ghost">Log In</Button>
-          <Button className="bg-primary hover:bg-primary/90">Sign Up</Button>
+          <Button asChild className="bg-primary hover:bg-primary/90">
+            <Link href="/register">Sign Up</Link>
+          </Button>
           
           <Sheet>
             <SheetTrigger asChild>
@@ -50,6 +52,10 @@ export function Header() {
                       {link.label}
                     </Link>
                   ))}
+                  <div className='flex flex-col gap-2 pt-4 border-t'>
+                     <Button variant="ghost">Log In</Button>
+                     <Button asChild className="bg-primary hover:bg-primary/90"><Link href="/register">Sign Up</Link></Button>
+                  </div>
                 </div>
               </div>
             </SheetContent>
