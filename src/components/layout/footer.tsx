@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Leaf } from 'lucide-react';
+import { Logo } from './logo';
 
 export function Footer() {
   return (
@@ -8,7 +8,7 @@ export function Footer() {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
           <div className="flex flex-col gap-4">
             <Link href="/" className="flex items-center gap-2">
-              <Leaf className="h-6 w-6 text-primary" />
+              <Logo className="h-8 w-8" />
               <span className="font-headline text-xl font-bold text-primary">SkillTrust</span>
             </Link>
             <p className="text-sm text-muted-foreground">Connecting you with Sri Lanka's finest service professionals.</p>

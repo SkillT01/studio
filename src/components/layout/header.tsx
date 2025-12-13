@@ -1,7 +1,8 @@
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
-import { Menu, Leaf } from 'lucide-react';
+import { Menu } from 'lucide-react';
+import { Logo } from './logo';
 
 export function Header() {
   const navLinks = [
@@ -14,7 +15,7 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 max-w-screen-2xl items-center">
         <Link href="/" className="mr-6 flex items-center gap-2">
-          <Leaf className="h-6 w-6 text-primary" />
+          <Logo className="h-8 w-8" />
           <span className="font-headline text-xl font-bold text-primary">SkillTrust</span>
         </Link>
 
@@ -40,7 +41,7 @@ export function Header() {
             <SheetContent side="right">
               <div className="p-4">
                 <Link href="/" className="mb-8 flex items-center gap-2">
-                  <Leaf className="h-6 w-6 text-primary" />
+                  <Logo className="h-8 w-8" />
                   <span className="font-headline text-xl font-bold text-primary">SkillTrust</span>
                 </Link>
                 <div className="flex flex-col gap-4">
