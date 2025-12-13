@@ -6,8 +6,8 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: {
-    default: 'LankanServ',
-    template: `%s | LankanServ`,
+    default: 'SkillTrust',
+    template: `%s | SkillTrust`,
   },
   description: 'Find and book trusted service professionals in Sri Lanka.',
   keywords: ['Sri Lanka', 'services', 'carpenter', 'mason', 'salon', 'local business'],

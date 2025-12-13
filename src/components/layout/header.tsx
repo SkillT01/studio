@@ -15,7 +15,7 @@ export function Header() {
       <div className="container flex h-16 max-w-screen-2xl items-center">
         <Link href="/" className="mr-6 flex items-center gap-2">
           <Leaf className="h-6 w-6 text-primary" />
-          <span className="font-headline text-xl font-bold text-primary">LankanServ</span>
+          <span className="font-headline text-xl font-bold text-primary">SkillTrust</span>
         </Link>
 
         <nav className="hidden md:flex md:items-center md:gap-6 text-sm font-medium">
@@ -41,7 +41,7 @@ export function Header() {
               <div className="p-4">
                 <Link href="/" className="mb-8 flex items-center gap-2">
                   <Leaf className="h-6 w-6 text-primary" />
-                  <span className="font-headline text-xl font-bold text-primary">LankanServ</span>
+                  <span className="font-headline text-xl font-bold text-primary">SkillTrust</span>
                 </Link>
                 <div className="flex flex-col gap-4">
                   {navLinks.map((link) => (

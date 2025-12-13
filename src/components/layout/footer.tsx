@@ -9,7 +9,7 @@ export function Footer() {
           <div className="flex flex-col gap-4">
             <Link href="/" className="flex items-center gap-2">
               <Leaf className="h-6 w-6 text-primary" />
-              <span className="font-headline text-xl font-bold text-primary">LankanServ</span>
+              <span className="font-headline text-xl font-bold text-primary">SkillTrust</span>
             </Link>
             <p className="text-sm text-muted-foreground">Connecting you with Sri Lanka's finest service professionals.</p>
           </div>
@@ -40,7 +40,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-8 border-t pt-8 text-center text-sm text-muted-foreground">
-          © {new Date().getFullYear()} LankanServ. All rights reserved.
+          © {new Date().getFullYear()} SkillTrust. All rights reserved.
         </div>
       </div>
     </footer>
