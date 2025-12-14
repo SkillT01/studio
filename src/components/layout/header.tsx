@@ -46,7 +46,7 @@ export function Header() {
     { href: '/services', label: t('services') },
     { href: '/#how-it-works', label: t('howItWorks') },
     { href: '/about', label: t('aboutUs') },
-  ];
+  ] as const;
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
