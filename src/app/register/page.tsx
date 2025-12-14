@@ -19,7 +19,7 @@ export default function RegisterPage() {
         </p>
         <div className="mt-8">
           <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90">
-            <Link href="https://forms.gle/abcdef123" target="_blank">
+            <Link href="https://docs.google.com/forms/d/e/1FAIpQLSci0hAcTTLoJU_oY0Ga8_BwOWFHQTpJklKlGT-bJ3lrVLrfVQ/viewform?usp=header" target="_blank">
               Register Now
             </Link>
           </Button>
