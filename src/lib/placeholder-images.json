@@ -2,9 +2,9 @@
   "placeholderImages": [
     {
       "id": "hero-background",
-      "description": "A construction worker with tools on a workbench.",
-      "imageUrl": "https://images.unsplash.com/photo-1593323751792-69a0a0557370?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjB3b3JrZXJ8ZW58MHx8fHwxNzE5NDI0MjIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "construction worker"
+      "description": "A vibrant landscape of Sri Lanka.",
+      "imageUrl": "https://images.unsplash.com/photo-1621820400783-62c557fdd8e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzcmklMjBsYW5rYSUyMGxhbmRzY2FwZXxlbnwwfHx8fDE3NjU2MTQ5NzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sri lanka landscape"
     },
     {
       "id": "carpenter-category",
@@ -81,13 +81,13 @@
     {
       "id": "caterer-category",
       "description": "A display of catered food.",
-      "imageUrl": "https://images.unsplash.com/photo-1585951641542-c30dac5d87b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2F0ZXJpbmclMjBmb29kfGVufDB8fHx8MTc2NTU4OTkyMHww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1585951641542-c30dac5d87b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2F0ZXJpbmclMjBmb29kfGVufDB8fHx8MTc2NTU4OTkyMHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "catering food"
     },
     {
       "id": "event-planner-category",
       "description": "A beautifully decorated event venue.",
-      "imageUrl": "https://images.unsplash.com/photo-1762709118823-7fe9c9afa8ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZXZlbnQlMjBkZWNvcnxlbnwwfHx8fDE3NjU2ODY3NDZ8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1762709118823-7fe9c9afa8ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZXZlbnQlMjBkZWNvcnxlbnwwfHx8fDE3NjU2ODY3NDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "event decor"
     }
   ]
