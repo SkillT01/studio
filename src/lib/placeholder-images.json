@@ -41,6 +41,54 @@
       "description": "Profile picture of a third service provider.",
       "imageUrl": "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwb3J0cmFpdCUyMG1hbnxlbnwwfHx8fDE3NjU1ODk2OTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "portrait man"
+    },
+    {
+      "id": "welder-category",
+      "description": "A welder at work.",
+      "imageUrl": "https://images.unsplash.com/photo-1637356161919-6e9f118e73f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3ZWxkZXIlMjB3b3JrfGVufDB8fHx8MTc2NTY4Njc0Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "welder work"
+    },
+    {
+      "id": "plumber-category",
+      "description": "A plumber fixing pipes.",
+      "imageUrl": "https://images.unsplash.com/photo-1567748533458-bddb1377adbc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwbHVtYmVyJTIwcGlwZXN8ZW58MHx8fHwxNzY1NjQ3ODc5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "plumber pipes"
+    },
+    {
+      "id": "electrician-category",
+      "description": "An electrician working on wiring.",
+      "imageUrl": "https://images.unsplash.com/photo-1754620906571-9ba64bd3ffb4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZWxlY3RyaWNpYW4lMjB3aXJpbmd8ZW58MHx8fHwxNzY1NjIwODAxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "electrician wiring"
+    },
+    {
+      "id": "painter-category",
+      "description": "A painter painting a wall.",
+      "imageUrl": "https://images.unsplash.com/photo-1620814100269-8e3430ce924e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwYWludGVyJTIwd2FsbHxlbnwwfHx8fDE3NjU2NzIwMTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "painter wall"
+    },
+    {
+      "id": "tiler-category",
+      "description": "A tiler laying tiles.",
+      "imageUrl": "https://images.unsplash.com/photo-1585557488780-78b585ba3117?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0aWxlciUyMGZsb29yfGVufDB8fHx8MTc2NTY3MjAxN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tiler floor"
+    },
+    {
+      "id": "ac-technician-category",
+      "description": "An AC technician repairing an air conditioner.",
+      "imageUrl": "https://images.unsplash.com/photo-1649335143768-e96bea9104ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZWNobmljaWFuJTIwYWN8ZW58MHx8fHwxNzY1Njg2NzQ2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "technician ac"
+    },
+    {
+      "id": "caterer-category",
+      "description": "A display of catered food.",
+      "imageUrl": "https://images.unsplash.com/photo-1585951641542-c30dac5d87b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2F0ZXJpbmclMjBmb29kfGVufDB8fHx8MTc2NTU4OTkyMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "catering food"
+    },
+    {
+      "id": "event-planner-category",
+      "description": "A beautifully decorated event venue.",
+      "imageUrl": "https://images.unsplash.com/photo-1762709118823-7fe9c9afa8ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZXZlbnQlMjBkZWNvcnxlbnwwfHx8fDE3NjU2ODY3NDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "event decor"
     }
   ]
 }

@@ -1,5 +1,5 @@
 import type { Category, ServiceProvider } from '@/lib/types';
-import { Construction, Scissors, Wrench } from 'lucide-react';
+import { Construction, Scissors, Wrench, Flame, Pipette, Zap, Paintbrush, Grip, Wind, UtensilsCrossed, PartyPopper } from 'lucide-react';
 import { PlaceHolderImages } from './placeholder-images';
 
 const getImage = (id: string) => PlaceHolderImages.find(img => img.id === id)?.imageUrl || '';
@@ -25,6 +25,62 @@ export const categories: Category[] = [
     slug: 'salons',
     icon: Scissors,
     image: getImage('salon-category'),
+  },
+  {
+    id: '4',
+    name: 'Welders/Fabricators',
+    slug: 'welders-fabricators',
+    icon: Flame,
+    image: getImage('welder-category'),
+  },
+  {
+    id: '5',
+    name: 'Plumbers',
+    slug: 'plumbers',
+    icon: Pipette,
+    image: getImage('plumber-category'),
+  },
+  {
+    id: '6',
+    name: 'Electricians',
+    slug: 'electricians',
+    icon: Zap,
+    image: getImage('electrician-category'),
+  },
+  {
+    id: '7',
+    name: 'Painters',
+    slug: 'painters',
+    icon: Paintbrush,
+    image: getImage('painter-category'),
+  },
+  {
+    id: '8',
+    name: 'Tilers',
+    slug: 'tilers',
+    icon: Grip,
+    image: getImage('tiler-category'),
+  },
+  {
+    id: '9',
+    name: 'AC Technicians',
+    slug: 'ac-technicians',
+    icon: Wind,
+    image: getImage('ac-technician-category'),
+  },
+  {
+    id: '10',
+    name: 'Caterers',
+    slug: 'caterers',
+    icon: UtensilsCrossed,
+    image: getImage('caterer-category'),
+  },
+  {
+    id: '11',
+    name: 'Event Planners',
+    slug: 'event-planners',
+    icon: PartyPopper,
+    image: getImage('event-planner-category'),
   },
 ];
 

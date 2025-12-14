@@ -15,7 +15,7 @@ export function CategoryShowcase() {
             Find professionals in a wide range of categories.
           </p>
         </div>
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
+        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {categories.map((category) => {
             const categoryImage = PlaceHolderImages.find(p => p.imageUrl === category.image);
             return (
@@ -28,7 +28,7 @@ export function CategoryShowcase() {
                         alt={`Image for ${category.name}`}
                         fill
                         className="object-cover"
-                        sizes="(max-width: 768px) 100vw, 33vw"
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 25vw"
                         data-ai-hint={categoryImage?.imageHint}
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />

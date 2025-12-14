@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { Logo } from './logo';
+import { categories } from '@/lib/data';
 
 export function Footer() {
   return (
@@ -16,9 +17,9 @@ export function Footer() {
           <div>
             <h4 className="mb-4 font-headline font-semibold">Services</h4>
             <ul className="space-y-2">
-              <li><Link href="/services?category=carpenters" className="text-sm text-muted-foreground hover:text-primary">Carpenters</Link></li>
-              <li><Link href="/services?category=masons" className="text-sm text-muted-foreground hover:text-primary">Masons</Link></li>
-              <li><Link href="/services?category=salons" className="text-sm text-muted-foreground hover:text-primary">Salons</Link></li>
+              {categories.slice(0, 4).map(category => (
+                <li key={category.id}><Link href={`/services?category=${category.slug}`} className="text-sm text-muted-foreground hover:text-primary">{category.name}</Link></li>
+              ))}
               <li><Link href="/services" className="text-sm text-muted-foreground hover:text-primary">All Services</Link></li>
             </ul>
           </div>
