@@ -12,6 +12,7 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Loader2, Wand2 } from 'lucide-react';
 import { useToast } from "@/hooks/use-toast";
+import { useTranslations } from 'next-intl';
 
 const formSchema = z.object({
   userRequirements: z.string().min(10, 'Please describe your needs in more detail.'),
@@ -21,6 +22,7 @@ const formSchema = z.object({
 type FormData = z.infer<typeof formSchema>;
 
 export function AIRecommender() {
+  const t = useTranslations('HomePage');
   const [recommendations, setRecommendations] = useState<string[]>([]);
   const [isLoading, setIsLoading] = useState(false);
   const { toast } = useToast();
@@ -59,9 +61,9 @@ export function AIRecommender() {
       <div className="container">
         <div className="grid items-center gap-12 md:grid-cols-2">
           <div>
-            <h2 className="font-headline text-3xl font-bold text-primary md:text-4xl">Let AI Find Your Perfect Match</h2>
+            <h2 className="font-headline text-3xl font-bold text-primary md:text-4xl">{t('aiRecommenderTitle')}</h2>
             <p className="mt-4 text-lg text-muted-foreground">
-              Don't have time to browse? Describe what you need, and our smart recommendation engine will suggest the best professionals for you.
+              {t('aiRecommenderSubtitle')}
             </p>
           </div>
           <Card className="shadow-lg">

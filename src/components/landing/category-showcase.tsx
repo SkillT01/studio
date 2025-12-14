@@ -1,18 +1,23 @@
+"use client";
+
 import Image from 'next/image';
-import Link from 'next/link';
 import { categories } from '@/lib/data';
 import { Card, CardContent } from '@/components/ui/card';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { ArrowRight } from 'lucide-react';
+import { useTranslations } from 'next-intl';
+import { Link } from '@/navigation';
 
 export function CategoryShowcase() {
+  const t = useTranslations('HomePage');
+
   return (
     <section className="bg-secondary/30 py-12 md:py-24">
       <div className="container">
         <div className="mb-12 text-center">
-          <h2 className="font-headline text-3xl font-bold md:text-4xl">Explore Our Services</h2>
+          <h2 className="font-headline text-3xl font-bold md:text-4xl">{t('exploreServicesTitle')}</h2>
           <p className="mx-auto mt-2 max-w-xl text-lg text-muted-foreground">
-            Find professionals in a wide range of categories.
+            {t('exploreServicesSubtitle')}
           </p>
         </div>
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">

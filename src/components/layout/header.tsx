@@ -1,14 +1,51 @@
-import Link from 'next/link';
+"use client";
+
+import { useTranslations } from 'next-intl';
+import { locales, usePathname, useRouter, Link } from '@/navigation';
 import { Button } from '@/components/ui/button';
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from '@/components/ui/dropdown-menu';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
-import { Menu } from 'lucide-react';
+import { Languages, Menu } from 'lucide-react';
 import { Logo } from './logo';
 
+function LanguageSwitcher() {
+  const t = useTranslations('Header');
+  const pathname = usePathname();
+  const router = useRouter();
+
+  const handleLocaleChange = (locale: string) => {
+    router.replace(pathname, { locale });
+  };
+
+  return (
+    <DropdownMenu>
+      <DropdownMenuTrigger asChild>
+        <Button variant="ghost" size="icon">
+          <Languages />
+          <span className="sr-only">{t('language')}</span>
+        </Button>
+      </DropdownMenuTrigger>
+      <DropdownMenuContent>
+        <DropdownMenuItem onClick={() => handleLocaleChange('en')}>{t('english')}</DropdownMenuItem>
+        <DropdownMenuItem onClick={() => handleLocaleChange('si')}>{t('sinhala')}</DropdownMenuItem>
+        <DropdownMenuItem onClick={() => handleLocaleChange('ta')}>{t('tamil')}</DropdownMenuItem>
+      </DropdownMenuContent>
+    </DropdownMenu>
+  );
+}
+
 export function Header() {
+  const t = useTranslations('Header');
+
   const navLinks = [
-    { href: '/services', label: 'Services' },
-    { href: '/#how-it-works', label: 'How It Works' },
-    { href: '/about', label: 'About Us' },
+    { href: '/services', label: t('services') },
+    { href: '/#how-it-works', label: t('howItWorks') },
+    { href: '/about', label: t('aboutUs') },
   ];
 
   return (
@@ -28,9 +65,10 @@ export function Header() {
         </nav>
 
         <div className="flex flex-1 items-center justify-end gap-2">
-          <Button variant="ghost">Log In</Button>
+          <LanguageSwitcher />
+          <Button variant="ghost">{t('logIn')}</Button>
           <Button asChild className="bg-primary hover:bg-primary/90">
-            <Link href="/register">Sign Up</Link>
+            <Link href="/register">{t('signUp')}</Link>
           </Button>
           
           <Sheet>
@@ -53,8 +91,8 @@ export function Header() {
                     </Link>
                   ))}
                   <div className='flex flex-col gap-2 pt-4 border-t'>
-                     <Button variant="ghost">Log In</Button>
-                     <Button asChild className="bg-primary hover:bg-primary/90"><Link href="/register">Sign Up</Link></Button>
+                     <Button variant="ghost">{t('logIn')}</Button>
+                     <Button asChild className="bg-primary hover:bg-primary/90"><Link href="/register">{t('signUp')}</Link></Button>
                   </div>
                 </div>
               </div>

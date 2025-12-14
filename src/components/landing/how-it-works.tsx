@@ -1,22 +1,27 @@
+"use client";
+
 import { Card, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Search, Calendar, Star } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 
 export function HowItWorks() {
+  const t = useTranslations('HomePage');
+
   const steps = [
     {
       icon: Search,
-      title: 'Find a Service',
-      description: 'Search by category or location to find the right professional for your needs.',
+      title: t('step1Title'),
+      description: t('step1Description'),
     },
     {
       icon: Calendar,
-      title: 'Book & Schedule',
-      description: 'Easily book an appointment or request a service at a time that works for you.',
+      title: t('step2Title'),
+      description: t('step2Description'),
     },
     {
       icon: Star,
-      title: 'Rate & Review',
-      description: 'Share your experience by leaving a rating and review to help the community.',
+      title: t('step3Title'),
+      description: t('step3Description'),
     },
   ];
 
@@ -24,9 +29,9 @@ export function HowItWorks() {
     <section id="how-it-works" className="py-12 md:py-24">
       <div className="container">
         <div className="mb-12 text-center">
-          <h2 className="font-headline text-3xl font-bold md:text-4xl">Simple Steps to Get Started</h2>
+          <h2 className="font-headline text-3xl font-bold md:text-4xl">{t('howItWorksTitle')}</h2>
           <p className="mx-auto mt-2 max-w-xl text-lg text-muted-foreground">
-            Three easy steps to connect with trusted service providers.
+            {t('howItWorksSubtitle')}
           </p>
         </div>
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">

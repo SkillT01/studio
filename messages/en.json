@@ -1,0 +1,52 @@
+{
+  "Header": {
+    "services": "Services",
+    "howItWorks": "How It Works",
+    "aboutUs": "About Us",
+    "logIn": "Log In",
+    "signUp": "Sign Up",
+    "language": "Language",
+    "english": "English",
+    "sinhala": "Sinhala",
+    "tamil": "Tamil"
+  },
+  "Footer": {
+    "description": "Connecting you with Sri Lanka's finest service professionals.",
+    "services": "Services",
+    "allServices": "All Services",
+    "company": "Company",
+    "aboutUs": "About Us",
+    "contact": "Contact",
+    "privacyPolicy": "Privacy Policy",
+    "followUs": "Follow Us",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "instagram": "Instagram",
+    "copyright": "© {year} SkillTrust. All rights reserved."
+  },
+  "HomePage": {
+    "heroTitle": "Find Your Perfect Pro in Sri Lanka",
+    "heroSubtitle": "From carpenters to beauticians, book trusted local experts for any job, big or small.",
+    "browseServices": "Browse Services",
+    "learnMore": "Learn More",
+    "exploreServicesTitle": "Explore Our Services",
+    "exploreServicesSubtitle": "Find professionals in a wide range of categories.",
+    "howItWorksTitle": "Simple Steps to Get Started",
+    "howItWorksSubtitle": "Three easy steps to connect with trusted service providers.",
+    "step1Title": "Find a Service",
+    "step1Description": "Search by category or location to find the right professional for your needs.",
+    "step2Title": "Book & Schedule",
+    "step2Description": "Easily book an appointment or request a service at a time that works for you.",
+    "step3Title": "Rate & Review",
+    "step3Description": "Share your experience by leaving a rating and review to help the community.",
+    "aiRecommenderTitle": "Let AI Find Your Perfect Match",
+    "aiRecommenderSubtitle": "Don't have time to browse? Describe what you need, and our smart recommendation engine will suggest the best professionals for you."
+  },
+  "RegisterPage": {
+    "title": "Register as a Professional",
+    "welcome": "සාදරයෙන් පිළිගන්නවා!",
+    "description": "Register වෙලා profile එක හදන්න",
+    "registerNow": "Register Now",
+    "info": "Service providers can register using the form above. We will review your application and get in touch with you to create your profile on SkillTrust."
+  }
+}
